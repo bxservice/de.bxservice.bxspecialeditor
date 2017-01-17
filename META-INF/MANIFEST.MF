@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bxspecialeditor
+Bundle-SymbolicName: de.bxservice.bxspecialeditor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.idempiere.ui.zk.specialeditor;bundle-version="1.0.0"
+ org.adempiere.base;bundle-version="3.1.0",
+ org.adempiere.plugin.utils;bundle-version="3.1.0"
+Service-Component: OSGI-INF/*.xml

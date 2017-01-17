@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="de.bxservice.specialeditor">
+   <implementation class="de.bxservice.bxspecialeditor.SpecialEdit_C_Invoice_Project"/>
+   <service>
+      <provide interface="org.idempiere.base.ISpecialEditCallout"/>
+   </service>
+   <property name="tableName" type="String" value="C_Invoice"/>
+   <property name="columnName" type="String" value="C_Project_ID"/>
+</scr:component>
